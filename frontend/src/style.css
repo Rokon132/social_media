@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-section h1 {
+    color: #1877f2;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.recent-logins h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.recent-logins p {
+    color: #606770;
+    margin-bottom: 20px;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile,
+.add-account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.add-account button {
+    border: none;
+    background: none;
+    color: #1877f2;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.login-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+}
+
+.login-form button {
+    padding: 10px;
+    background: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options a {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.options button {
+    background: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.languages,
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.languages a,
+.links a {
+    color: #606770;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+.languages button {
+    background: none;
+    border: none;
+    color: #606770;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.footer p {
+    color: #606770;
+    font-size: 12px;
+}
