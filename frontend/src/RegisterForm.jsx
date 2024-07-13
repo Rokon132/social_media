@@ -27,6 +27,7 @@ function RegisterForm() {
         setEmail("");
         setPassword("");
         setAddress("");
+        console.log("message : ", "taking input from Form Successfully done ")
 
     }
     return (
